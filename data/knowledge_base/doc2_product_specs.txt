@@ -1,0 +1,7 @@
+Nova Robotics Aegis-7 Warehouse Unit — Technical Specification
+
+The Aegis-7 has a maximum payload capacity of 220 kg and operates
+for 9 hours on a single charge. Its navigation system uses a
+combination of LIDAR and infrared sensors, with an obstacle
+detection range of 3.2 meters. The unit does not include
+an onboard camera; visual inspection features are not supported.

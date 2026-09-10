@@ -1,0 +1,30 @@
+{"id": "tc001", "doc": "doc1_leave_policy.txt", "question": "How many paid leave days do full-time employees accrue per year?", "expected_answer": "18 days", "category": "answerable"}
+{"id": "tc002", "doc": "doc1_leave_policy.txt", "question": "How much notice is required for a leave request?", "expected_answer": "At least 5 business days", "category": "answerable"}
+{"id": "tc003", "doc": "doc1_leave_policy.txt", "question": "How many sick days does Nova Robotics offer?", "expected_answer": "Not specified in the document", "category": "unanswerable"}
+{"id": "tc004", "doc": "doc1_leave_policy.txt", "question": "Do Field Operations employees get extra leave?", "expected_answer": "Yes, an additional 4 days per year due to travel demands", "category": "answerable"}
+{"id": "tc005", "doc": "doc1_leave_policy.txt", "question": "Can I carry over 10 days of unused leave to next year?", "expected_answer": "No, maximum carryover is 6 days", "category": "adversarial_conflicting"}
+{"id": "tc006", "doc": "doc2_product_specs.txt", "question": "What is the maximum payload capacity of the Aegis-7?", "expected_answer": "220 kg", "category": "answerable"}
+{"id": "tc007", "doc": "doc2_product_specs.txt", "question": "Does the Aegis-7 have a built-in camera for visual inspection?", "expected_answer": "No, it does not include an onboard camera", "category": "answerable"}
+{"id": "tc008", "doc": "doc2_product_specs.txt", "question": "What color is the Aegis-7 unit?", "expected_answer": "Not specified in the document", "category": "unanswerable"}
+{"id": "tc009", "doc": "doc2_product_specs.txt", "question": "What is the obstacle detection range for the Aegis-7?", "expected_answer": "3.2 meters", "category": "answerable"}
+{"id": "tc010", "doc": "doc2_product_specs.txt", "question": "Can the Aegis-7 run for 12 hours straight without recharging?", "expected_answer": "No, operational time is 9 hours on a single charge", "category": "adversarial_conflicting"}
+{"id": "tc011", "doc": "doc3_refund_policy.txt", "question": "Can I get a refund on a software license after activating it?", "expected_answer": "No, software licenses are non-refundable once activated", "category": "answerable"}
+{"id": "tc012", "doc": "doc3_refund_policy.txt", "question": "If I return a damaged hardware unit within 30 days, will I get a full refund?", "expected_answer": "No — the unit must be undamaged and in original packaging to qualify", "category": "adversarial_conflicting"}
+{"id": "tc013", "doc": "doc3_refund_policy.txt", "question": "What is the window for returning hardware units?", "expected_answer": "Within 30 days of delivery", "category": "answerable"}
+{"id": "tc014", "doc": "doc3_refund_policy.txt", "question": "Does Nova Robotics pay for return shipping fees?", "expected_answer": "Not specified in the document", "category": "unanswerable"}
+{"id": "tc015", "doc": "doc3_refund_policy.txt", "question": "How long does it take to process refunds?", "expected_answer": "Within 10 business days", "category": "answerable"}
+{"id": "tc016", "doc": "doc4_warranty_policy.txt", "question": "How long is the standard warranty for Aegis series units?", "expected_answer": "2 years", "category": "answerable"}
+{"id": "tc017", "doc": "doc4_warranty_policy.txt", "question": "Is battery degradation covered under warranty for 2 years?", "expected_answer": "No, battery degradation is only covered up to 12 months", "category": "adversarial_conflicting"}
+{"id": "tc018", "doc": "doc4_warranty_policy.txt", "question": "Can I have a third-party technician fix my Aegis unit under warranty?", "expected_answer": "No, third-party repairs void the warranty entirely", "category": "answerable"}
+{"id": "tc019", "doc": "doc4_warranty_policy.txt", "question": "What is the cost of buying an extended warranty plan?", "expected_answer": "Not specified in the document", "category": "unanswerable"}
+{"id": "tc020", "doc": "doc4_warranty_policy.txt", "question": "Within how many days of delivery can extended warranty plans be bought?", "expected_answer": "Within 60 days", "category": "answerable"}
+{"id": "tc021", "doc": "doc5_onboarding_guide.txt", "question": "When must security awareness training be completed?", "expected_answer": "Within 14 days of start date", "category": "answerable"}
+{"id": "tc022", "doc": "doc5_onboarding_guide.txt", "question": "Can new hires work remotely during their first month?", "expected_answer": "No, remote work eligibility begins after completing a 90-day probationary period", "category": "adversarial_conflicting"}
+{"id": "tc023", "doc": "doc5_onboarding_guide.txt", "question": "How many code approvals are required before merging to main?", "expected_answer": "At least two senior reviewers", "category": "answerable"}
+{"id": "tc024", "doc": "doc5_onboarding_guide.txt", "question": "What brand of laptop is issued to new engineers?", "expected_answer": "Not specified in the document", "category": "unanswerable"}
+{"id": "tc025", "doc": "doc5_onboarding_guide.txt", "question": "What is required to get a hardware access badge on Day 1?", "expected_answer": "Presenting a government-issued photo ID to Facility Management", "category": "answerable"}
+{"id": "tc026", "doc": "doc6_titan_x_specs.txt", "question": "What is the peak towing capacity of the Titan-X?", "expected_answer": "1,200 kg", "category": "answerable"}
+{"id": "tc027", "doc": "doc6_titan_x_specs.txt", "question": "How long can Titan-X run on continuous deployment?", "expected_answer": "Up to 14 hours", "category": "answerable"}
+{"id": "tc028", "doc": "doc6_titan_x_specs.txt", "question": "Is the Titan-X fully waterproof for underwater operations?", "expected_answer": "No, it has an IP65 water and dust resistance rating, not underwater waterproofing", "category": "adversarial_conflicting"}
+{"id": "tc029", "doc": "doc6_titan_x_specs.txt", "question": "What is the retail price of the Titan-X unit?", "expected_answer": "Not specified in the document", "category": "unanswerable"}
+{"id": "tc030", "doc": "doc6_titan_x_specs.txt", "question": "What is the peak noise level during transport?", "expected_answer": "68 dB", "category": "answerable"}

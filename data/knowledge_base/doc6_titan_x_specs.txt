@@ -1,0 +1,7 @@
+Nova Robotics Titan-X Heavy Lifter — Product Specification
+
+The Titan-X is designed for heavy manufacturing environments with a peak
+towing capacity of 1,200 kg. It utilizes dual lithium-ion power packs providing
+up to 14 hours of continuous deployment. The core chassis has an IP65 water
+and dust resistance rating. Operational sound output peaks at 68 dB during
+maximum load transport.

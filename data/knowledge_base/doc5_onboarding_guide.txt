@@ -1,0 +1,7 @@
+Nova Robotics Engineering Onboarding Guide
+
+New engineering hires must complete security awareness training within 14 days
+of their start date. Hardware access badges are issued by Facility Management
+on Day 1 after presenting government-issued photo ID. All code contributions
+require approval from at least two senior reviewers before merging to main.
+Remote work eligibility begins after completing a 90-day probationary period.
