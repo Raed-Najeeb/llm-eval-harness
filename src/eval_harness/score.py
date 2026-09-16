@@ -1,6 +1,9 @@
 import json
 from pathlib import Path
 from judge import call_judge
+from datetime import datetime, timezone
+
+RUN_HISTORY_PATH = Path("data/results/run_history.jsonl") if not 'REPO_ROOT' in dir() else REPO_ROOT / "data" / "results" / "run_history.jsonl"
 
 RAW_OUTPUTS_PATH = Path("data/results/raw_outputs.jsonl")
 SCORED_OUTPUTS_PATH = Path("data/results/scored_outputs.jsonl")
@@ -66,6 +69,22 @@ def main():
 
     overall_correct = sum(1 for r in scored if r["verdict"] == "correct")
     print(f"\nOverall: {overall_correct}/{len(scored)} correct ({100*overall_correct/len(scored):.0f}%)")
+
+        # Append this run's summary to history for drift tracking
+    run_record = {
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "overall_accuracy": overall_correct / len(scored),
+        "by_category": {
+            cat: sum(1 for r in scored if r["category"] == cat and r["verdict"] == "correct") / 
+                 sum(1 for r in scored if r["category"] == cat)
+            for cat in categories
+        },
+        "total_cases": len(scored),
+    }
+    RUN_HISTORY_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(RUN_HISTORY_PATH, "a", encoding="utf-8") as f:
+        f.write(json.dumps(run_record) + "\n")
+    print(f"\nAppended run summary to {RUN_HISTORY_PATH}")
 
 
 if __name__ == "__main__":

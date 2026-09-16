@@ -1,0 +1,2 @@
+{"timestamp": "2026-09-16T06:04:04.000487+00:00", "overall_accuracy": 0.6666666666666666, "by_category": {"adversarial_conflicting": 0.0, "answerable": 0.7777777777777778, "unanswerable": 1.0}, "total_cases": 30}
+{"timestamp": "2026-09-16T06:10:30.794071+00:00", "overall_accuracy": 0.6666666666666666, "by_category": {"adversarial_conflicting": 0.0, "answerable": 0.7777777777777778, "unanswerable": 1.0}, "total_cases": 30}
